@@ -1,0 +1,2 @@
+My name is William, and I design websites and apps using JavaScript and JavaScript-related technology. This site was built with Gatsby. Gatsby is a framework that makes it easy to build websites, stores, blogs and even apps using Reactjs. Gatsby uses concepts and technologies that are different from many other popular platforms like Wordpress. Gatsby combines app-like sophistication with fast HTML rendering to give your customers the best exprience possible.
+<p>Learn more.</p>
