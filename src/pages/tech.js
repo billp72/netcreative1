@@ -23,7 +23,7 @@ const About = ({ data }) => (
   </Layout>
 );
 const responsiveimage = {
-  width: '30%',
+  width: '40%',
   height: '10%',
 };
 

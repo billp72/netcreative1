@@ -12,13 +12,15 @@ const IOExample = () => (
     {({ isVisible }) => (
       <Container isVisible={isVisible}>
         <Title tag="span">
-          William Pope&nbsp;|&nbsp; william@netcreative.org&nbsp;|&nbsp;
-          <a
-            style={{ color: 'white' }}
-            href="https://app.hellobonsai.com/u/bill-p"
-          >
-            hire me
-          </a>
+          <span style={{ fontWeight: '300' }}>
+            William Pope&nbsp;|&nbsp; william@netcreative.org&nbsp;|&nbsp;
+            <a
+              style={{ color: 'white' }}
+              href="https://app.hellobonsai.com/u/bill-p"
+            >
+              hire me
+            </a>
+          </span>
         </Title>
       </Container>
     )}

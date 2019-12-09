@@ -28,8 +28,7 @@ export default createGlobalStyle`
   footer, header, hgroup, menu, nav, section {
     display: block;
   }
-  div.sc-bdVaJa.hpyFyd {max-width:100% !important;}
-  span.sc-htpNat.uMweV {font-weight:300 !important}
+
   html {
     font-size: 62.5%;
   }
