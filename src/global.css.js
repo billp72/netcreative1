@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import { accent } from 'constants/theme';
+import { accent, decoration, globalAccent } from 'constants/theme';
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -74,11 +74,13 @@ export default createGlobalStyle`
     border-collapse: collapse;
     border-spacing: 0;
   }
-
-  a {
-    color: ${accent};
+  .cVcyuO,
+  a,
+  a:visited,
+  a:link {
+    color: ${globalAccent} !important;
+    text-decoration: ${decoration} !important;
   }
-
   pre {
     display: block;
     padding: 2rem;

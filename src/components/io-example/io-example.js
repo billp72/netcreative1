@@ -12,9 +12,7 @@ const IOExample = () => (
     {({ isVisible }) => (
       <Container isVisible={isVisible}>
         <Title tag="span">
-          <span style={{ fontWeight: '300' }}>
-            william@netcreative.org
-          </span>
+          <span style={{ fontWeight: '300' }}>william@netcreative.org</span>
         </Title>
       </Container>
     )}

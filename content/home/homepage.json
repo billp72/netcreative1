@@ -4,16 +4,19 @@
   "gallery": [{
     "title": "Ipadmaster",
     "copy": "While ipads are largely irrelevant these days, I still like this rather gaudy design.",
-    "image": "../images/gallery/ipadmaster.jpg"
+    "image": "../images/gallery/ipadmaster.jpg",
+    "link": ""
   },
   {
     "title": "Gold Parent Coaching",
-    "copy": "Designed, built and now gets 10k hits a day.",
-    "image": "../images/gallery/goldparent.jpg"
+    "copy": "Designed, built and was gets 5k hits a day.",
+    "image": "../images/gallery/goldparent.jpg",
+    "link": ""
   },
   {
     "title": "Earie optometrists",
-    "copy": "Redesign of their site and logo.",
-    "image": "../images/gallery/earie.jpg"
+    "copy": "Redesign of their site and logo. (note this is not my logo design)",
+    "image": "../images/gallery/earie.jpg",
+    "link": "https://aeriepharma.com/"
   }]
 }
