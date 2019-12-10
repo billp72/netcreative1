@@ -1,21 +1,40 @@
 {
   "title": "Home",
   "content": "intro.md",
+  "background": "../images/splater.jpg",
   "gallery": [{
+    "title": "Wordpress",
+    "copy": "Defacto industry standard for the web.",
+    "image": "../images/gallery/wordpress.png",
+    "link": ""
+  },
+  {
+    "title": "React and React Native",
+    "copy": "Build the most responsive, non-native apps around.",
+    "image": "../images/gallery/react.png",
+    "link": ""
+  },
+  {
+    "title": "Gatsby",
+    "copy": "The missing framework for sites and apps",
+    "image": "../images/gallery/gatsby.png",
+    "link": "https://aeriepharma.com/"
+  },
+  {
     "title": "Ipadmaster",
-    "copy": "While ipads are largely irrelevant these days, I still like this rather gaudy design.",
+    "copy": "Complcated sites can still be built for mobile.",
     "image": "../images/gallery/ipadmaster.jpg",
     "link": ""
   },
   {
     "title": "Gold Parent Coaching",
-    "copy": "Designed, built and was gets 5k hits a day.",
+    "copy": "10k hits a week.",
     "image": "../images/gallery/goldparent.jpg",
     "link": ""
   },
   {
-    "title": "Earie optometrists",
-    "copy": "Redesign of their site and logo. (note this is not my logo design)",
+    "title": "Earie Optometry",
+    "copy": "Site redesign",
     "image": "../images/gallery/earie.jpg",
     "link": "https://aeriepharma.com/"
   }]

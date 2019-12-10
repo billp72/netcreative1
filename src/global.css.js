@@ -78,7 +78,7 @@ export default createGlobalStyle`
   a,
   a:visited,
   a:link {
-    color: ${globalAccent} !important;
+    color: ${globalAccent};
     text-decoration: ${decoration} !important;
   }
   pre {
