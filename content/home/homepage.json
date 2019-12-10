@@ -3,17 +3,17 @@
   "content": "intro.md",
   "gallery": [{
     "title": "Ipadmaster",
-    "copy": "While ipads are largely irrelevant today, I still like this design.",
+    "copy": "While ipads are largely irrelevant these days, I still like this rather gaudy design.",
     "image": "../images/gallery/ipadmaster.jpg"
   },
   {
     "title": "Gold Parent Coaching",
-    "copy": "Designed & built and now gets 10k hits a day.",
+    "copy": "Designed, built and now gets 10k hits a day.",
     "image": "../images/gallery/goldparent.jpg"
   },
   {
     "title": "Eerie optometrists",
-    "copy": "Redesign of the site and logo.",
+    "copy": "Redesign of their site and logo.",
     "image": "../images/gallery/earie.jpg"
   }]
 }
