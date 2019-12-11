@@ -5,10 +5,10 @@ Find the repository [on GitHub](https://github.com/billp72/netcreative/tree/mast
 I started as a web and print designer 10 years ago and three years later, started my developement career
 
 # Why the change from desgin to development?
-I felt a nagging urge to learn more about the tech I was designing for
+I felt a nagging urge to know more about the tech I was designing for
 
 # What do you like best about your work?
-The excitement of having to keep up with ever-changing technology
+The excitement of having to learn ever-changing technology
 
 # What are your hobbies
 Working out at the gym, playing my guitar or bass, writing stories and, believe it or not, coding
