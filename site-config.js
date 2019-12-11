@@ -11,7 +11,7 @@ module.exports = {
   siteTitle: `NetCreative`,
   siteTitleShort: `NC`,
   siteDescription: `Netcreative - we build websites so you dont have to`,
-  siteUrl: `http://www.netcreative.org`,
+  siteUrl: `https://www.netcreative.org`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
