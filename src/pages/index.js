@@ -36,15 +36,6 @@ const Index = ({ data }) => (
           </Button>
         </div>
       </Title>
-      <Modal>
-        <video
-          src="https://i.imgur.com/gzFqNSW.mp4"
-          playsInline
-          loop
-          autoPlay
-          muted
-        />
-      </Modal>
     </Box>
     <Gallery items={data.homeJson.gallery} />
 
@@ -56,9 +47,19 @@ const Index = ({ data }) => (
         fontSize: 'x-large',
       }}
     >
-      {'"Simplicity is the Ultimate sophistication" ~ Leonardo Da Vinci'}
+      9 years in design and development coupled with a passion for the business
+      <br />
+      means you and your users will have excellent experience.
     </h1>
-
+    <Modal>
+      <video
+        src="https://i.imgur.com/gzFqNSW.mp4"
+        playsInline
+        loop
+        autoPlay
+        muted
+      />
+    </Modal>
     <IOExample />
   </Layout>
 );

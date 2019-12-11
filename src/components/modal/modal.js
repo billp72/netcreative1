@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { Button, Close } from './modal.css';
 import { Dialog } from '@reach/dialog';
 import VisuallyHidden from '@reach/visually-hidden';
-
 import '@reach/dialog/styles.css';
+//import { Certificate } from 'crypto';
 
 // This component is here only to to showcase the
 // React Context integration. No need to keep this if
@@ -45,8 +45,16 @@ export default class Modal extends PureComponent {
 
     return (
       <>
-        <Button onClick={showModal}>Show Modal</Button>
-
+        <div
+          style={{
+            textAlign: 'center',
+            display: 'block',
+            position: 'relative',
+            bottom: '7rem',
+          }}
+        >
+          <Button onClick={showModal}>Show Modal</Button>
+        </div>
         <Dialog isOpen={open}>
           <Close onClick={hideModal}>
             <VisuallyHidden>Close</VisuallyHidden>
