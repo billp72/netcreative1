@@ -8,10 +8,10 @@ if (process.env.ENVIRONMENT !== "production") {
 const { spaceId, accessToken } = process.env;
 
 module.exports = {
-  siteTitle: `Netcreative`,
+  siteTitle: `NetCreative`,
   siteTitleShort: `NC`,
-  siteDescription: `Netcreative - a site to show off development projects`,
-  siteUrl: `https://gu.fabianschultz.com`,
+  siteDescription: `Netcreative - we build websites so you dont have to`,
+  siteUrl: `http://www.netcreative.org`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
