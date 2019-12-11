@@ -32,7 +32,12 @@ const Index = ({ data }) => (
         />
         <div style={link}>
           <Button>
-            <a href="https://app.hellobonsai.com/u/bill-p">Lets Do This</a>
+            <a
+              style={{ fontWeight: '800' }}
+              href="https://app.hellobonsai.com/u/bill-p"
+            >
+              Lets Do This
+            </a>
           </Button>
         </div>
       </Title>
