@@ -7,7 +7,7 @@ import Gallery from 'components/gallery';
 import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
-import { Link } from 'gatsby';
+//import { Link } from 'gatsby';
 import { Button } from 'components/modal/modal.css';
 
 const link = {
@@ -32,7 +32,7 @@ const Index = ({ data }) => (
         />
         <div style={link}>
           <Button>
-            <Link to="/about">LETS DO THIS</Link>
+            <a href="https://app.hellobonsai.com/u/bill-p">Lets Do This</a>
           </Button>
         </div>
       </Title>
@@ -47,9 +47,10 @@ const Index = ({ data }) => (
         fontSize: 'x-large',
       }}
     >
-      9 years in design and development coupled with a passion for the business
+      Nine years as a designer and developer coupled with a passion for the
+      business
       <br />
-      means you and your users will have excellent experience.
+      means you and your customers will have an excellent online experience.
     </h1>
     <Modal>
       <video

@@ -11,8 +11,18 @@ const About = ({ data }) => (
     <Box>
       <img
         style={responsiveimage}
-        src={data.contentfulHomePage.images[2].file.url}
-        alt={data.contentfulHomePage.images[2].file.fileName}
+        src={data.contentfulHomePage.images[3].file.url}
+        alt={data.contentfulHomePage.images[3].file.fileName}
+      />
+      <img
+        style={responsiveimage}
+        src={data.contentfulHomePage.images[4].file.url}
+        alt={data.contentfulHomePage.images[4].file.fileName}
+      />
+      <img
+        style={responsiveimage}
+        src={data.contentfulHomePage.images[5].file.url}
+        alt={data.contentfulHomePage.images[5].file.fileName}
       />
       <div
         dangerouslySetInnerHTML={{
@@ -23,8 +33,8 @@ const About = ({ data }) => (
   </Layout>
 );
 const responsiveimage = {
-  width: '40%',
-  height: '10%',
+  width: '5%',
+  height: '5%',
 };
 
 About.propTypes = {

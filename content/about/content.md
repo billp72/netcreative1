@@ -1,21 +1,21 @@
-Find the repository [on GitHub](https://github.com/billp72/netcreative/tree/master/netcreative).
+Find me on Github [on GitHub](https://github.com/billp72).
 
 ```
-# How many years have you been in this business?
-I started as a web and print designer 10 years ago and three years later, started my developement career
+# How many years have you been building websites?
+10 years ago, I was a web and print designer. Three years went by before I started my developement career
 
 # Why the change from desgin to development?
-I felt a nagging urge to know more about the tech I was designing for
+I felt a nagging urge to know more about the technology I was designing for
 
 # What do you like best about your work?
-The excitement of having to learn ever-changing technology
+The excitement of having to learn changing technology
 
 # What are your hobbies
-Working out at the gym, playing my guitar or bass, writing stories and, believe it or not, coding
+I work out at the gym; I playing guitar and bass; I writing stories and, believe it or not, I actually do some coding as hobbie
 
 # What would you do if you weren't a developer?
-Probably retire from whatever I was doing
+Probably be retired from whatever it was I was doing
 
-# If you could be another kind of animal, what would it be?
+# If you could be any other kind of animal, what would it be?
 A Wolverine, I suppose
 ```
