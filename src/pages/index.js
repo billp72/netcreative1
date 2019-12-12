@@ -52,10 +52,8 @@ const Index = ({ data }) => (
         fontSize: 'x-large',
       }}
     >
-      Nine years as a designer and developer coupled with a passion for the
-      business
-      <br />
-      means you and your customers will have an excellent online experience.
+      Ten years as a designer and developer coupled with a passion for the
+      business means you and your customers will have an excellent experience.
     </h1>
     <Modal>
       <video
