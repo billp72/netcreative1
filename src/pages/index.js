@@ -43,16 +43,16 @@ const Index = ({ data }) => (
       </Title>
     </Box>
     <Gallery items={data.homeJson.gallery} />
-
     <h1
       style={{
         height: '30vh',
-        textAlign: 'center',
         paddingTop: '50px',
         fontSize: 'x-large',
+        textAlign: 'center',
       }}
     >
       Ten years as a designer and developer coupled with a passion for the
+      <br />
       business means you and your customers will have an excellent experience.
     </h1>
     <Modal>
