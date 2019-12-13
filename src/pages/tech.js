@@ -32,11 +32,13 @@ const About = ({ data }) => (
       <br />
       <p>Supporting links</p>
       <p style={{ padding: '10px', border: '1px solid #E6E2E1' }}>
-        <a href={data.contentfulHomePage.links.migrating}>Moving to Gatsby</a>
+        <a href={data.contentfulHomePage.links.contentful}>Contentful</a>
         <br />
         <a href={data.contentfulHomePage.links.what}>What is Gatsby</a>
         <br />
         <a href={data.contentfulHomePage.links.starters}>Themes and starters</a>
+        <br />
+        <a href={data.contentfulHomePage.links.graphql}>GraphQL</a>
       </p>
     </Box>
   </Layout>
@@ -68,8 +70,9 @@ export const query = graphql`
       }
       links {
         starters
-        migrating
+        contentful
         what
+        graphql
       }
     }
   }
