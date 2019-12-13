@@ -29,6 +29,15 @@ const About = ({ data }) => (
           __html: data.contentfulHomePage.about.childMarkdownRemark.html,
         }}
       />
+      <br />
+      <p>Supporting links</p>
+      <p style={{ padding: '10px', border: '1px solid #E6E2E1' }}>
+        <a href={data.contentfulHomePage.links.migrating}>Moving to Gatsby</a>
+        <br />
+        <a href={data.contentfulHomePage.links.what}>What is Gatsby</a>
+        <br />
+        <a href={data.contentfulHomePage.links.starters}>Themes and starters</a>
+      </p>
     </Box>
   </Layout>
 );
@@ -56,6 +65,11 @@ export const query = graphql`
           fileName
           url
         }
+      }
+      links {
+        starters
+        migrating
+        what
       }
     }
   }
