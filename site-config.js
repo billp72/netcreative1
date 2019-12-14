@@ -10,7 +10,7 @@ const { spaceId, accessToken } = process.env;
 module.exports = {
   siteTitle: `NetCreative`,
   siteTitleShort: `NC`,
-  siteDescription: `Netcreative - we build websites so you dont have to`,
+  siteDescription: `we build websites so you dont have to`,
   siteUrl: `https://www.netcreative.org`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
