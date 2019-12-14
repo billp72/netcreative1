@@ -11,7 +11,7 @@ I felt a nagging urge to know more about the technology I was designing for
 The excitement of having to learn ever-changing technology
 
 # What are your hobbies
-I work out at the gym; I play guitar and bass; I write stories and, believe it or not, I actually do coding as a hobby
+I workout at the gym; I play guitar and bass; I write stories and, believe it or not, I actually do coding as a hobby
 
 # What would you do if you weren't a developer?
 Probably retire from whatever it was I was doing to pursue my hobbies
