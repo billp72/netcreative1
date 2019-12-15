@@ -38,7 +38,7 @@ const About = ({ data }) => (
         <br />
         <a href={data.contentfulHomePage.links.starters}>Themes and starters</a>
         <br />
-        <a href={data.contentfulHomePage.links.graphql}>GraphQL</a>
+        <a href={data.contentfulHomePage.links.netlify}>Netlify</a>
       </p>
     </Box>
   </Layout>
