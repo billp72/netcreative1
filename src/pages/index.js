@@ -7,7 +7,6 @@ import Gallery from 'components/gallery';
 import IOExample from 'components/io-example';
 import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
-//import { Link } from 'gatsby';
 import { Button } from 'components/modal/modal.css';
 
 const link = {
@@ -97,7 +96,8 @@ export const query = graphql`
             }
           }
         }
-        link
+        linkA
+        linkB
       }
     }
   }
