@@ -10,11 +10,8 @@ I felt a nagging urge to know more about the technology I was designing for
 # What do you like best about your work?
 The excitement of having to learn ever-changing technology
 
-# What are your hobbies
-I workout at the gym; I play guitar and bass; I write stories and, believe it or not, I actually do coding as a hobby
-
-# What would you do if you weren't a developer?
-Probably retire from whatever it was I was doing to pursue my hobbies
+# What sort of projects have you worked on?
+Lots Javascript projects with a smattering of Wordpress as well. PHP 7.4 is out and I've heard good things about it.
 
 # If you could be any other kind of animal, what would it be?
 A Wolverine, I suppose
