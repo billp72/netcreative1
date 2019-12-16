@@ -72,7 +72,7 @@ export const query = graphql`
         starters
         contentful
         what
-        graphql
+        netlify
       }
     }
   }
