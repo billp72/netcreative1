@@ -11,7 +11,7 @@ I felt a nagging urge to know more about the technology I was designing for
 The excitement of having to learn ever-changing technology
 
 # What sort of projects have you worked on?
-Lots Javascript projects with a smattering of Wordpress as well. PHP 7.4 is out and I've heard good things about it.
+Lots of Javascript projects with a smattering of Wordpress as well. PHP 7.4 is out and I've heard good things about it.
 
 # If you could be any other kind of animal, what would it be?
 A Wolverine, I suppose
