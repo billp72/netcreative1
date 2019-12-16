@@ -12,7 +12,7 @@ const Nav = () => (
         <Link to="/about">About</Link>
       </li>
       <li>
-        <Link to="/tech">Gatsby</Link>
+        <Link to="/gatsby">Gatsby</Link>
       </li>
     </ul>
   </Container>
