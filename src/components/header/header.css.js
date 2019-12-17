@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import MEDIA from 'helpers/mediaTemplates';
 
 export const Container = styled.header`
   display: flex;
@@ -15,4 +16,14 @@ export const Container = styled.header`
       color: inherit;
     }
   }
+`;
+
+export const Image = styled.div`
+  ${MEDIA.PHONE`
+      display: none;
+  `};
+
+  ${MEDIA.TABLET`
+      display: none;
+  `};
 `;

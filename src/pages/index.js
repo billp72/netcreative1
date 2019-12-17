@@ -1,4 +1,6 @@
 import React from 'react';
+import styled from 'styled-components';
+import MEDIA from 'helpers/mediaTemplates';
 import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Box from 'components/box';
@@ -13,22 +15,31 @@ const link = {
   textAlign: 'center',
   marginTop: '-40px',
 };
+const Moniker = styled.div`
+  text-align: center;
+  padding-top: 2rem;
+  color: white;
+  font-weight: 700;
+  ${MEDIA.PHONE`
+      padding-top: 6rem;
+    `};
+
+  ${MEDIA.TABLET`
+      padding-top: 6rem;
+  `};
+`;
 //#0358AD
 const Index = ({ data }) => (
   <Layout>
     <Box color={data.homeJson.background.publicURL}>
       <Title as="h2" size="large">
-        <div
-          style={{
-            textAlign: 'center',
-            paddingTop: '12rem',
-            color: 'white',
-            fontWeight: '700',
-          }}
-          dangerouslySetInnerHTML={{
-            __html: data.homeJson.content.childMarkdownRemark.html,
-          }}
-        />
+        <Moniker>
+          <span
+            dangerouslySetInnerHTML={{
+              __html: data.homeJson.content.childMarkdownRemark.html,
+            }}
+          />
+        </Moniker>
         <div style={link}>
           <Button>
             <a

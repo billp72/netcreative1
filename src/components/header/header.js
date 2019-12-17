@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
+import { Link, StaticQuery, graphql } from 'gatsby';
 import posed from 'react-pose';
-import { Container } from './header.css';
+import { Container, Image } from './header.css';
 import Title from 'components/title';
 import Nav from 'components/header/nav';
 
@@ -22,13 +22,18 @@ const AnimatedContainer = posed.div({
   },
 });
 
-const Header = ({ title }) => (
+const Header = ({ title, data }) => (
   <AnimatedContainer>
     <Container>
       <Link to="/">
         <Title as="h1">{title}</Title>
       </Link>
-
+      <Image>
+        <img
+          src={data.contentfulHeader.globalImages[0].file.url}
+          alt={data.contentfulHeader.globalImages[0].file.fileName}
+        />
+      </Image>
       <Nav />
     </Container>
   </AnimatedContainer>
@@ -36,6 +41,25 @@ const Header = ({ title }) => (
 
 Header.propTypes = {
   title: PropTypes.string.isRequired,
+  data: PropTypes.object.isRequired,
 };
 
-export default Header;
+const HeaderWithQuery = props => (
+  <StaticQuery
+    query={graphql`
+      query Header {
+        contentfulHeader {
+          globalImages {
+            file {
+              url
+              fileName
+            }
+          }
+        }
+      }
+    `}
+    render={data => <Header data={data} {...props} />}
+  />
+);
+
+export default HeaderWithQuery;
