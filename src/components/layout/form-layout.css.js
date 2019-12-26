@@ -36,11 +36,11 @@ export const Form = styled.div`
 
   ${MEDIA.PHONE`
       width: 70%;
-      margin: 10px 40% 10px 20%;
+      margin: 10px 50% 10px 15%;
   `};
 
   ${MEDIA.TABLET`
       width: 70%;
-      margin: 10px 40% 10px 20%;
+      margin: 10px 50% 10px 15%;
   `};
 `;
