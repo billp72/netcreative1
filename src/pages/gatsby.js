@@ -11,34 +11,34 @@ const About = ({ data }) => (
     <Box>
       <img
         style={responsiveimage}
-        src={data.contentfulHomePage.images[3].file.url}
-        alt={data.contentfulHomePage.images[3].file.fileName}
+        src={data.contentfulGatsby.pics[0].file.url}
+        alt={data.contentfulGatsby.pics[0].file.fileName}
       />
       <img
         style={responsiveimage}
-        src={data.contentfulHomePage.images[4].file.url}
-        alt={data.contentfulHomePage.images[4].file.fileName}
+        src={data.contentfulGatsby.pics[1].file.url}
+        alt={data.contentfulGatsby.pics[1].file.fileName}
       />
       <img
         style={responsiveimage}
-        src={data.contentfulHomePage.images[5].file.url}
-        alt={data.contentfulHomePage.images[5].file.fileName}
+        src={data.contentfulGatsby.pics[2].file.url}
+        alt={data.contentfulGatsby.pics[2].file.fileName}
       />
       <div
         dangerouslySetInnerHTML={{
-          __html: data.contentfulHomePage.about.childMarkdownRemark.html,
+          __html: data.contentfulGatsby.about.childMarkdownRemark.html,
         }}
       />
       <br />
       <p>Supporting links</p>
       <p style={{ padding: '10px', border: '1px solid #E6E2E1' }}>
-        <a href={data.contentfulHomePage.links.contentful}>Contentful</a>
+        <a href={data.contentfulGatsby.links.contentful}>Contentful</a>
         <br />
-        <a href={data.contentfulHomePage.links.what}>What is Gatsby</a>
+        <a href={data.contentfulGatsby.links.what}>What is Gatsby</a>
         <br />
-        <a href={data.contentfulHomePage.links.starters}>Themes and starters</a>
+        <a href={data.contentfulGatsby.links.starters}>Themes and starters</a>
         <br />
-        <a href={data.contentfulHomePage.links.netlify}>Netlify</a>
+        <a href={data.contentfulGatsby.links.netlify}>Netlify</a>
       </p>
     </Box>
   </Layout>
@@ -55,14 +55,14 @@ About.propTypes = {
 export default About;
 
 export const query = graphql`
-  query HomePage {
-    contentfulHomePage {
+  query Gatsby {
+    contentfulGatsby {
       about {
         childMarkdownRemark {
           html
         }
       }
-      images {
+      pics {
         file {
           fileName
           url

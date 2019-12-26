@@ -30,8 +30,8 @@ const Header = ({ title, data }) => (
       </Link>
       <Image>
         <img
-          src={data.contentfulHeader.globalImages[0].file.url}
-          alt={data.contentfulHeader.globalImages[0].file.fileName}
+          src={data.headerJson.images[0].image.publicURL}
+          alt={data.headerJson.images[0].title}
         />
       </Image>
       <Nav />
@@ -47,13 +47,13 @@ Header.propTypes = {
 const HeaderWithQuery = props => (
   <StaticQuery
     query={graphql`
-      query Header {
-        contentfulHeader {
-          globalImages {
-            file {
-              url
-              fileName
+      query HeaderQuery {
+        headerJson {
+          images {
+            image {
+              publicURL
             }
+            title
           }
         }
       }
