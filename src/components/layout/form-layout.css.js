@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import MEDIA from 'helpers/mediaTemplates';
 
 export const Form = styled.div`
   width: 55%;
@@ -32,4 +33,14 @@ export const Form = styled.div`
     font-size: 15px;
     cursor: pointer;
   }
+
+  ${MEDIA.PHONE`
+      width: 70%;
+      margin: 10px 40% 10px 20%;
+  `};
+
+  ${MEDIA.TABLET`
+      width: 70%;
+      margin: 10px 40% 10px 20%;
+  `};
 `;
