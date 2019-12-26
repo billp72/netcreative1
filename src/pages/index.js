@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
 import PropTypes from 'prop-types';
@@ -42,12 +43,9 @@ const Index = ({ data }) => (
         </Moniker>
         <div style={link}>
           <Button>
-            <a
-              style={{ fontWeight: '800' }}
-              href="https://app.hellobonsai.com/u/bill-p"
-            >
+            <Link style={{ fontWeight: '800' }} to="/contact">
               Lets Do This
-            </a>
+            </Link>
           </Button>
         </div>
       </Title>

@@ -7,7 +7,7 @@ const Nav = () => (
   <Container>
     <ul>
       <li>
-        <a href="https://app.hellobonsai.com/u/bill-p">Hire Us</a>
+        <Link to="/contact">Contact Us</Link>
       </li>
       <li>
         <Link to="/about">About</Link>
