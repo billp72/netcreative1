@@ -37,10 +37,12 @@ export const Form = styled.div`
   ${MEDIA.PHONE`
       width: 70%;
       margin: 10px 50% 10px 15%;
+      border: none;
   `};
 
   ${MEDIA.TABLET`
       width: 70%;
       margin: 10px 50% 10px 15%;
+      border: none;
   `};
 `;
