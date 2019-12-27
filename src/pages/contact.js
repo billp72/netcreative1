@@ -53,11 +53,12 @@ export default function Contact() {
           name="contact-recaptcha"
           method="post"
           action="/thanks/"
-          netlify-honeypot="bot-field"
+          data-netlify-honeypot="bot-field"
           data-netlify="true"
           data-netlify-recaptcha="true"
           onSubmit={handleSubmit}
         >
+          <input type="hidden" name="contact-recaptcha" value="contact" />
           <noscript>
             <p>This form won’t work with Javascript disabled</p>
           </noscript>
