@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from 'components/layout';
 import styled from 'styled-components';
+import IOExample from 'components/io-example';
 
 const Thank = styled.div`
   width: 55%;
@@ -29,6 +30,7 @@ const Thanks = () => (
         <span style={{ color: '#4180C5' }}>(908) 336 - 4320</span>
       </p>
     </Thank>
+    <IOExample />
   </Layout>
 );
 

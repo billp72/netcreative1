@@ -13,9 +13,6 @@ const Nav = () => (
         <Link to="/about">About</Link>
       </li>
       <li>
-        <Link to="/gatsby">Gatsby</Link>
-      </li>
-      <li>
         <img width="27" src={image} alt="Google for Business" />
       </li>
     </ul>
