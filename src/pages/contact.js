@@ -99,7 +99,7 @@ export default function Contact() {
           <br />
           <br />
           <p>
-            <input type="submit" value="Send" />
+            <button type="submit" >Send</button>
           </p>
         </form>
       </Form>
