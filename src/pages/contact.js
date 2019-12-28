@@ -1,6 +1,6 @@
 import React from 'react';
 import { navigate } from 'gatsby';
-import Recaptcha from 'react-google-recaptcha';
+//import Recaptcha from 'react-google-recaptcha';
 import Layout from '../components/layout/layout';
 import { Form } from '../components/layout/form-layout.css';
 import IOExample from 'components/io-example';
@@ -23,7 +23,7 @@ function encode(data) {
 
 export default function Contact() {
   const [state, setState] = React.useState({});
-  const recaptchaRef = React.createRef();
+  //const recaptchaRef = React.createRef();
 
   const handleChange = e => {
     setState({ ...state, [e.target.name]: e.target.value });
@@ -32,13 +32,12 @@ export default function Contact() {
   const handleSubmit = e => {
     e.preventDefault();
     const form = e.target;
-    const recaptchaValue = recaptchaRef.current.getValue();
+    //const recaptchaValue = recaptchaRef.current.getValue();
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({
         'form-name': form.getAttribute('name'),
-        'g-recaptcha-response': recaptchaValue,
         ...state,
       }),
     })
@@ -55,11 +54,19 @@ export default function Contact() {
           action="/thanks/"
           data-netlify="true"
           data-netlify-recaptcha="true"
+          data-netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
         >
           <noscript>
             <p>This form won’t work with Javascript disabled</p>
           </noscript>
+          <input type="hidden" name="form-name" value="contact" />
+          <p hidden>
+            <label>
+              Don’t fill this out:{' '}
+              <input name="bot-field" onChange={handleChange} />
+            </label>
+          </p>
           <p>
             <label>
               Your name<span style={{ color: 'red' }}>*</span>:
@@ -93,7 +100,6 @@ export default function Contact() {
               <textarea required name="message" onChange={handleChange} />
             </label>
           </p>
-          <Recaptcha ref={recaptchaRef} sitekey={RECAPTCHA_KEY} />
           <br />
           <br />
           <p>
