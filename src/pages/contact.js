@@ -53,7 +53,6 @@ export default function Contact() {
           name="contact-recaptcha"
           method="post"
           action="/thanks/"
-          data-netlify-honeypot="bot-field"
           data-netlify="true"
           data-netlify-recaptcha="true"
           onSubmit={handleSubmit}
@@ -61,13 +60,6 @@ export default function Contact() {
           <noscript>
             <p>This form won’t work with Javascript disabled</p>
           </noscript>
-          <input type="hidden" name="form-name" value="contact-recaptcha" />
-          <p hidden>
-            <label>
-              Don’t fill this out:{' '}
-              <input name="bot-field" onChange={handleChange} />
-            </label>
-          </p>
           <p>
             <label>
               Your name<span style={{ color: 'red' }}>*</span>:
