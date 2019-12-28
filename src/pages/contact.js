@@ -53,7 +53,6 @@ export default function Contact() {
           method="post"
           action="/thanks/"
           data-netlify="true"
-          data-netlify-recaptcha="true"
           data-netlify-honeypot="bot-field"
           onSubmit={handleSubmit}
         >
