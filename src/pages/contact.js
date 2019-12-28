@@ -49,7 +49,7 @@ export default function Contact() {
     <Layout>
       <Form>
         <form
-          name="contact-recaptcha"
+          name="contact"
           method="post"
           action="/thanks/"
           data-netlify="true"
@@ -100,7 +100,6 @@ export default function Contact() {
               <textarea required name="message" onChange={handleChange} />
             </label>
           </p>
-          <br />
           <br />
           <p>
             <input type="submit" value="Send" />
