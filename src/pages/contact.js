@@ -89,7 +89,12 @@ export default function Contact() {
             <label>
               Your phone<span style={{ color: 'red' }}>*</span>:
               <br />
-              <input required type="tel" name="usertel" onChange={handleChange} />
+              <input
+                required
+                type="tel"
+                name="usertel"
+                onChange={handleChange}
+              />
             </label>
           </p>
           <p>

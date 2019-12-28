@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from 'components/layout';
 import styled from 'styled-components';
 import IOExample from 'components/io-example';
+import MEDIA from 'helpers/mediaTemplates';
 
 const Thank = styled.div`
   width: 55%;
@@ -17,6 +18,15 @@ const Thank = styled.div`
   h1 {
     font-size: 2em;
   }
+  ${MEDIA.PHONE`
+      width: 70%;
+      margin: 10px 50% 10px 15%;
+  `};
+
+  ${MEDIA.TABLET`
+      width: 70%;
+      margin: 10px 50% 10px 15%;
+  `};
 `;
 
 const Thanks = () => (
@@ -26,7 +36,7 @@ const Thanks = () => (
       <br />
       <p>We will be in touch to talk more about your project</p>
       <p>
-        If it is urgent, you can always reach out to us by phone:{' '}
+        If it is urgent, you can always reach out to us by phone: <br />
         <span style={{ color: '#4180C5' }}>(908) 336 - 4320</span>
       </p>
     </Thank>
