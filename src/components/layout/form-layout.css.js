@@ -12,13 +12,22 @@ export const Form = styled.div`
     margin: 4% 15%;
   }
   textarea,
-  input[type='date'],
   input[type='tel'],
   input[type='email'],
   input[type='text'] {
     margin-bottom: 20px;
     margin-top: 10px;
     width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #4180c5;
+  }
+  input[type='date'],
+  input[type='time'] {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 4%;
+    width: 40%;
     padding: 15px;
     border-radius: 5px;
     border: 1px solid #4180c5;

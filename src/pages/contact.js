@@ -99,13 +99,19 @@ export default function Contact() {
           </p>
           <p>
             <label>
-              Schedule time<span style={{ color: 'red' }}>*</span>:
+              Schedule date/time<span style={{ color: 'red' }}>*</span>:
               <br />
               <input
                 required
                 type="date"
-                name="schedule"
+                name="schedule-time"
                 min={new Date().toISOString().split('T')[0]}
+                onChange={handleChange}
+              />
+              <input
+                required
+                type="time"
+                name="schedule-time"
                 onChange={handleChange}
               />
             </label>
