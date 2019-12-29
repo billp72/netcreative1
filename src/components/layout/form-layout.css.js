@@ -12,6 +12,7 @@ export const Form = styled.div`
     margin: 4% 15%;
   }
   textarea,
+  input[type='date'],
   input[type='tel'],
   input[type='email'],
   input[type='text'] {

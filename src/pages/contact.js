@@ -99,6 +99,19 @@ export default function Contact() {
           </p>
           <p>
             <label>
+              Schedule time<span style={{ color: 'red' }}>*</span>:
+              <br />
+              <input
+                required
+                type="date"
+                name="schedule"
+                min={new Date().toISOString().split('T')[0]}
+                onChange={handleChange}
+              />
+            </label>
+          </p>
+          <p>
+            <label>
               Tell Us About Your Project<span style={{ color: 'red' }}>*</span>:
               <br />
               <textarea required name="message" onChange={handleChange} />
