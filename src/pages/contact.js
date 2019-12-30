@@ -109,14 +109,14 @@ export default function Contact() {
               <input
                 required
                 type="date"
-                name="schedule-time"
+                name="TheDate"
                 min={new Date().toISOString().split('T')[0]}
                 onChange={handleChange}
               />
               <input
                 required
                 type="time"
-                name="schedule-time"
+                name="TheTime"
                 onChange={handleChange}
               />
             </label>
