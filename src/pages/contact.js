@@ -104,7 +104,7 @@ export default function Contact() {
           </p>
           <p>
             <label>
-              Schedule date/time<span style={{ color: 'red' }}>*</span>:
+              Schedule time<span style={{ color: 'red' }}>*</span>:
               <br />
               <input
                 required
