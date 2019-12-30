@@ -41,7 +41,12 @@ export default function Contact() {
         ...state,
       }),
     })
-      .then(() => navigate(form.getAttribute('action')))
+      .then(() => {
+        navigate(
+          form.getAttribute('action') +
+            `?date=${form.elements[5].value}&time=${form.elements[6].value}`
+        );
+      })
       .catch(error => alert(error));
   };
 

@@ -1,8 +1,12 @@
 import React from 'react';
 import Layout from 'components/layout';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import IOExample from 'components/io-example';
 import MEDIA from 'helpers/mediaTemplates';
+import Moment from 'react-moment';
+import 'moment-timezone';
+import queryString from 'query-string';
 
 const Thank = styled.div`
   width: 55%;
@@ -29,19 +33,37 @@ const Thank = styled.div`
   `};
 `;
 
-const Thanks = () => (
-  <Layout>
-    <Thank>
-      <h1>Great!</h1>
-      <br />
-      <p>We will be in touch to talk more about your project</p>
-      <p>
-        If it is urgent, you can always reach out to us by phone: <br />
-        <span style={{ color: '#4180C5' }}>(908) 336 - 4320</span>
-      </p>
-    </Thank>
-    <IOExample />
-  </Layout>
-);
+const Thanks = props => {
+  const parseDate = () => {
+    return queryString.parse(props.location.search) || {};
+  };
+
+  const formatDate = () => {
+    return parseDate().date + 'T' + parseDate().time;
+  };
+
+  return (
+    <Layout>
+      <Thank>
+        <h1>Great!</h1>
+        <br />
+        <p>
+          You have an appointment scheduled on{' '}
+          <Moment format="MMM DD, YYYY hh:mm A">{formatDate()}</Moment>
+        </p>
+        <p>
+          If the need is urgent, you can always reach out to us by phone: <br />
+          <span style={{ color: '#4180C5' }}>(908) 336 - 4320</span>
+        </p>
+      </Thank>
+      <IOExample />
+    </Layout>
+  );
+};
+
+Thanks.propTypes = {
+  location: PropTypes.object.isRequired,
+  search: PropTypes.string.isRequired,
+};
 
 export default Thanks;
