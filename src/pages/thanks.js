@@ -3,6 +3,7 @@ import Layout from 'components/layout';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import IOExample from 'components/io-example';
+import Calender from 'components/calender/calender';
 import MEDIA from 'helpers/mediaTemplates';
 import Moment from 'react-moment';
 import 'moment-timezone';
@@ -21,6 +22,9 @@ const Thank = styled.div`
   }
   h1 {
     font-size: 2em;
+  }
+  .react-add-to-calendar {
+    text-align: center;
   }
   ${MEDIA.PHONE`
       width: 70%;
@@ -52,9 +56,11 @@ const Thanks = props => {
           <Moment format="MMM DD, YYYY hh:mm A">{formatDate()}</Moment>
         </p>
         <p>
-          If you need urgent assistance, you can always reach out to us by phone: <br />
+          If you need urgent assistance, you can always reach out to us by
+          phone: <br />
           <span style={{ color: '#4180C5' }}>(908) 336 - 4320</span>
         </p>
+        <Calender date={formatDate()}></Calender>
       </Thank>
       <IOExample />
     </Layout>

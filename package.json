@@ -43,6 +43,7 @@
     "prop-types": "^15.6.2",
     "query-string": "^6.9.0",
     "react": "^16.8.6",
+    "react-add-to-calendar": "^0.1.5",
     "react-dom": "^16.8.6",
     "react-google-recaptcha": "^2.0.1",
     "react-helmet": "^5.2.0",
