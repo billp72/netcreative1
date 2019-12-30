@@ -52,7 +52,7 @@ const Thanks = props => {
           <Moment format="MMM DD, YYYY hh:mm A">{formatDate()}</Moment>
         </p>
         <p>
-          If the need is urgent, you can always reach out to us by phone: <br />
+          If you need urgent assistance, you can always reach out to us by phone: <br />
           <span style={{ color: '#4180C5' }}>(908) 336 - 4320</span>
         </p>
       </Thank>
