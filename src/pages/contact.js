@@ -3,7 +3,6 @@ import { navigate } from 'gatsby';
 //import Recaptcha from 'react-google-recaptcha';
 import Layout from '../components/layout/layout';
 import { Form } from '../components/layout/form-layout.css';
-import IOExample from 'components/io-example';
 
 const RECAPTCHA_KEY = process.env.GATSBY_APP_SITE_RECAPTCHA_KEY;
 if (typeof RECAPTCHA_KEY === 'undefined') {
@@ -134,7 +133,6 @@ export default function Contact() {
           </p>
         </form>
       </Form>
-      <IOExample />
     </Layout>
   );
 }

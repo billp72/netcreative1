@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from 'components/layout';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import IOExample from 'components/io-example';
 import Calender from 'components/calender/calender';
 import MEDIA from 'helpers/mediaTemplates';
 import Moment from 'react-moment';
@@ -62,7 +61,6 @@ const Thanks = props => {
         </p>
         <Calender date={formatDate()}></Calender>
       </Thank>
-      <IOExample />
     </Layout>
   );
 };

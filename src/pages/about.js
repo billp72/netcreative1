@@ -4,7 +4,6 @@ import { graphql } from 'gatsby';
 import Layout from 'components/layout';
 import Box from 'components/box';
 import Head from 'components/head';
-import IOExample from 'components/io-example';
 
 const About = ({ data }) => (
   <Layout>
@@ -16,7 +15,6 @@ const About = ({ data }) => (
         }}
       />
     </Box>
-    <IOExample />
   </Layout>
 );
 
