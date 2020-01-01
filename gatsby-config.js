@@ -29,12 +29,5 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: 'gatsby-source-contentful',
-      options: {
-        spaceId: siteConfig.spaceId,
-        accessToken: siteConfig.accessToken,
-      },
-    },
   ],
 };
