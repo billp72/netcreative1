@@ -46,16 +46,15 @@ const Project = ({ data }) => {
   );
 };
 
-/*Project.propTypes = {
-  data: PropTypes.string.isRequired,
-};*/
+Project.propTypes = {
+  data: PropTypes.object.isRequired,
+};
 
 export default Project;
 
 export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
       frontmatter {
         title
         featuredImage {
@@ -66,6 +65,7 @@ export const query = graphql`
           }
         }
       }
+      html
     }
   }
 `;
