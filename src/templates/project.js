@@ -30,9 +30,8 @@ export const Container = styled.div`
   }
 `;
 
-export default function Project({ data }) {
+const Project = ({ data }) => {
   const post = data.markdownRemark;
-  console.log(data)
   const featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid;
   return (
     <Layout>
@@ -45,11 +44,13 @@ export default function Project({ data }) {
       </Container>
     </Layout>
   );
-}
-
-Project.propTypes = {
-  data: PropTypes.object.isRequired,
 };
+
+/*Project.propTypes = {
+  data: PropTypes.string.isRequired,
+};*/
+
+export default Project;
 
 export const query = graphql`
   query($slug: String!) {

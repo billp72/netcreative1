@@ -27,7 +27,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     const slug = createFilePath({ node, getNode, basePath: 'content' });
     createNodeField({
       node,
-      name: 'slug',
+      name: `slug`,
       value: slug,
     });
   }
@@ -49,16 +49,14 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    if (node.fields) {
       createPage({
         path: node.fields.slug,
-        component: path.resolve('./src/template/project.js'),
+        component: path.resolve(`./src/templates/project.js`),
         context: {
           // Data passed to context is available
           // in page queries as GraphQL variables.
           slug: node.fields.slug,
         },
       });
-    }
   });
 };
