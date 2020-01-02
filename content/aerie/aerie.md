@@ -1,6 +1,6 @@
 ---
  title: Aerie Pharmaceutical
- featuredImage: ../images/aeriefull.jpg
+ featuredImage: ./../images/aeriefull.jpg
 ---
 ## PROBLEM
 Original website used older technology with a design that felt antiquated

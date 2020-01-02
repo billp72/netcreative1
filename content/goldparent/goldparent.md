@@ -1,6 +1,6 @@
 ---
  title: Gold Parent Coaching
- featuredImage: ../images/goldparentfull.jpg
+ featuredImage: ./../images/goldparentfull.jpg
 ---
 ## PROBLEM
 Urgent retouches to site design and new content needed to be added

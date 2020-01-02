@@ -32,7 +32,7 @@ export const Container = styled.div`
 
 const Project = ({ data }) => {
   const post = data.markdownRemark;
-  const featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid;
+  
   return (
     <Layout>
       <Container>
@@ -40,7 +40,11 @@ const Project = ({ data }) => {
           <p style={{ fontWeight: '800' }}>{post.frontmatter.title}</p>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
-        <Img style={{ width: '50%' }} fluid={featuredImgFluid} />
+        {post.frontmatter.featuredImage
+         && (
+          <Img style={{ width: '50%' }} fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
+          )
+        }
       </Container>
     </Layout>
   );
