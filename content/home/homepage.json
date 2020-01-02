@@ -28,20 +28,20 @@
     "copy": "Made an existing site more mobile-friendly.",
     "image": "../images/gallery/ipadmaster.jpg",
     "linkA": "",
-    "linkB": "/ipadmaster/ipadmaster"
+    "linkB": "/ipadmaster"
   },
   {
     "title": "Gold Parent Coaching",
     "copy": "We added key content and site features, boosting traffic roughly 10%.",
     "image": "../images/gallery/goldparent.jpg",
     "linkA": "",
-    "linkB": "/goldparent/goldparent"
+    "linkB": "/goldparent"
   },
   {
     "title": "Earie Optometry",
     "copy": "After going from a basic HTML website to a modern Wordpress, Google showed an increase in traffic of 20% across the site",
     "image": "../images/gallery/earie.jpg",
     "linkA": "",
-    "linkB": "/aerie/aerie"
+    "linkB": "/aerie"
   }]
 }
