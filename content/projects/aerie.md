@@ -3,15 +3,15 @@
  featuredImage: ./../images/aeriefull.jpg
 ---
 ## PROBLEM
-Original website used older technology with a design that felt antiquated
+The original website used older technology with a design that felt antiquated
 
 ## BUSINESS OBJECTIVE
 Redesign the entire site using Wordpress
 
-## PROCESS
+## NECESSITIES
 Decide What images, copy and other content could be reused<br />
 Choose a suitable Wordpress template to start building on<br />
-Extremely important that accessibility (WAI-ARIA) metadata be added to all images and HTML<br />
+It was extremely important that accessibility (WAI-ARIA) metadata be added to all images and HTML<br />
 Estimate time of completion.
 <br />
 ## OUTCOME
