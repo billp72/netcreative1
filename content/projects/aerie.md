@@ -3,7 +3,7 @@
  featuredImage: ./../images/aeriefull.jpg
 ---
 ## PROJECT BACKGROUND
-The original website used older technology with a design that felt antiquated
+The original website used older technology and had a design that felt antiquated
 
 ## PROJECT OBJECTIVE
 Redesign the entire site using Wordpress
@@ -11,7 +11,7 @@ Redesign the entire site using Wordpress
 ## NECESSITIES
 Choose a suitable Wordpress template to start building on<br />
 It was extremely important that accessibility (WAI-ARIA) metadata be added to all images and HTML<br />
-Estimate the time of completion.
+Estimate the time to completion.
 <br />
 ## OUTCOME
 Upon successful completion of the project, the site saw a 20% increase in traffic driven by the decision to go with an entirely new look and feel.
