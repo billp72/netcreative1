@@ -5,7 +5,7 @@
 ## PROJECT BACKGROUND
 The original website used older technology with a design that felt antiquated
 
-## BUSINESS OBJECTIVE
+## PROJECT OBJECTIVE
 Redesign the entire site using Wordpress
 
 ## NECESSITIES

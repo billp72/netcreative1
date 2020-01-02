@@ -5,7 +5,7 @@
 ## PROJECT BACKGROUND
 There was an urgent need to retouch the site design and add new content
 
-## BUSINESS OBJECTIVE
+## PROJECT OBJECTIVE
 Create content and other visual elements in a timely manner
 
 ## NECESSITIES

@@ -5,7 +5,7 @@
 ## PROJECT BACKGROUND
 The original website was not responsive
 
-## BUSINESS OBJECTIVE
+## PROJECT OBJECTIVE
 Make the site suitable for mobile screens
 
 ## NECESSITIES
