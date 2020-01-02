@@ -103,7 +103,8 @@ export default function Contact() {
           </p>
           <p>
             <label>
-              Schedule time<span style={{ color: 'red' }}>*</span>:
+              Schedule time to talk about your project
+              <span style={{ color: 'red' }}>*</span>:
               <br />
               <input
                 required
@@ -124,7 +125,12 @@ export default function Contact() {
             <label>
               Tell Us About Your Project<span style={{ color: 'red' }}>*</span>:
               <br />
-              <textarea required name="message" onChange={handleChange} />
+              <textarea
+                placeholder="Big picture or small picture, I am interested."
+                required
+                name="message"
+                onChange={handleChange}
+              />
             </label>
           </p>
           <br />
