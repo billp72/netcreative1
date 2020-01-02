@@ -1,0 +1,11 @@
+
+.react-add-to-calendar__dropdown ul {
+    background-color: rgb(238, 232, 232);
+}
+
+.react-add-to-calendar__dropdown ul li {
+    padding-top: 10px;
+}
+.react-add-to-calendar__dropdown ul li a {
+    color:red !important;
+}

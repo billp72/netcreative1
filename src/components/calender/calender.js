@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import AddToCalendar from 'react-add-to-calendar';
 import Moment from 'moment';
+import './calender.css';
 
 const Schedule = props => {
   const startDatetime = Moment(props.date).utc();
