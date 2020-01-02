@@ -4,14 +4,18 @@ import AddToCalendar from 'react-add-to-calendar';
 import Moment from 'moment';
 
 const Schedule = props => {
+  const startDatetime = Moment(props.date).utc();
+  const endDatetime = startDatetime.clone().add(30, 'minute');
+  const duration = Moment.duration(endDatetime.diff(startDatetime)).asHours();
+
   const state = {
     event: {
       title: 'Meeting with Netcreative',
       description: 'To discuss project',
-      startTime: Moment(props.date).format('MMM DD, YYYY hh:mm A'),
-      endTime: Moment(props.date)
-        .add('30', 'minute')
-        .format('MMM DD, YYYY hh:mm A'),
+      duration,
+      location: 'Millburn, NJ',
+      startTime: startDatetime.format('YYYYMMDDTHHmmssZ'),
+      endTime: endDatetime.format('YYYYMMDDTHHmmssZ'),
     },
   };
 
