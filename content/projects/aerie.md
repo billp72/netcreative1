@@ -10,7 +10,7 @@ Redesign the entire site using Wordpress
 
 ## NECESSITIES
 Choose a suitable Wordpress template to start building on<br />
-Based on this template, create a site layout which included customizations to the global header/footer, navigation, internal page content (images and text), widgets and deep links<br />
+Based on this template, create a site layout which included customizations to the global header/footer, navigation, and internal page content: images, text, widgets and deep links<br />
 It is extremely important in the pharmaceutical industry for websites to be handicap accessible (WAI-ARIA)<br />
 Estimate time to completion.
 <br />
