@@ -9,7 +9,6 @@ The original website used older technology with a design that felt antiquated
 Redesign the entire site using Wordpress
 
 ## NECESSITIES
-Decide What images, copy and other content could be reused<br />
 Choose a suitable Wordpress template to start building on<br />
 It was extremely important that accessibility (WAI-ARIA) metadata be added to all images and HTML<br />
 Estimate the time of completion.
