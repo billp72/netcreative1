@@ -119,7 +119,7 @@ export default function Contact() {
               Tell Us About Your Project<span style={{ color: 'red' }}>*</span>:
               <br />
               <textarea
-                placeholder="Big picture or small picture, I am interested."
+                placeholder="Big or small project, I am interested."
                 required
                 name="message"
                 onChange={handleChange}
