@@ -13,6 +13,8 @@ export const Form = styled.div`
   }
   select,
   textarea,
+  input[type='number'],
+  input[type='url'],
   input[type='tel'],
   input[type='email'],
   input[type='text'] {

@@ -117,6 +117,25 @@ export default function Contact() {
           </p>
           <p>
             <label>
+              Your website (optional):
+              <br />
+              <input
+                required
+                type="url"
+                name="website"
+                onChange={handleChange}
+              />
+            </label>
+          </p>
+          <p>
+            <label>
+              Project budget (optional):
+              <br />
+              <input type="number" name="budget" onChange={handleChange} />
+            </label>
+          </p>
+          <p>
+            <label>
               Schedule time to talk about your project (optional):
               <br />
               <input
