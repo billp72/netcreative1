@@ -2,7 +2,7 @@
  title: Aerie Pharmaceutical
  featuredImage: ./../images/aeriefull.jpg
 ---
-## PROJECT BACKGROUND
+## PROJECT BACKGROUND/PROBLEM
 The original website used older technology and a design that felt antiquated
 
 ## PROJECT OBJECTIVE
