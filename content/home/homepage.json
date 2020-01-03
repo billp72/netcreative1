@@ -43,5 +43,12 @@
     "image": "../images/gallery/earie.jpg",
     "linkA": "",
     "linkB": "/aerie"
+  },
+  {
+    "title": "Writing Solutions",
+    "copy": "Designed in leiu of translation services for Shopify customers",
+    "image": "../images/gallery/writingsolutions.jpg",
+    "linkA": "",
+    "linkB": "/writingsolutions"
   }]
 }
