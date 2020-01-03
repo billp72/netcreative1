@@ -43,7 +43,7 @@ export default function Contact() {
       .then(() => {
         navigate(
           form.getAttribute('action') +
-            `?date=${form.elements[6].value}&time=${form.elements[7].value}`
+            `?date=${form.elements[8].value}&time=${form.elements[9].value}`
         );
       })
       .catch(error => alert(error));
