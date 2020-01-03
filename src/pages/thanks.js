@@ -38,24 +38,36 @@ const Thank = styled.div`
 
 const Thanks = props => {
   const parseDate = () => {
-    return queryString.parse(props.location.search) || {};
+    return queryString.parse(props.location.search) || '';
   };
 
   const formatDate = () => {
-    return parseDate().date + 'T' + parseDate().time;
+    if (parseDate().date && parseDate().time) {
+      return parseDate().date + 'T' + parseDate().time;
+    } else {
+      return '';
+    }
   };
+  let schedule, text;
 
+  if (formatDate()) {
+    text = 'You have an appointment scheduled on ';
+    schedule = <Moment format="MMM DD, YYYY hh:mm A">{formatDate()}</Moment>;
+  } else {
+    text = '';
+    schedule = 'No appointment scheduled';
+  }
   return (
     <Layout>
       <Thank>
         <h1>Great!</h1>
         <br />
         <p>
-          You have an appointment scheduled on{' '}
-          <Moment format="MMM DD, YYYY hh:mm A">{formatDate()}</Moment>
+          {text}
+          {schedule}
         </p>
         <p>
-          If you need urgent assistance, you can always reach out to us by
+          If you need immediate assistance, you can always reach out to us by
           phone: <br />
           <span style={{ color: '#4180C5' }}>(908) 336 - 4320</span>
         </p>

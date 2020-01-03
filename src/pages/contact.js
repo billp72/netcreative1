@@ -103,22 +103,15 @@ export default function Contact() {
           </p>
           <p>
             <label>
-              Schedule time to talk about your project
-              <span style={{ color: 'red' }}>*</span>:
+              Schedule time to talk about your project (optional):
               <br />
               <input
-                required
                 type="date"
                 name="TheDate"
                 min={new Date().toISOString().split('T')[0]}
                 onChange={handleChange}
               />
-              <input
-                required
-                type="time"
-                name="TheTime"
-                onChange={handleChange}
-              />
+              <input type="time" name="TheTime" onChange={handleChange} />
             </label>
           </p>
           <p>
