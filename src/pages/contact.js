@@ -43,7 +43,7 @@ export default function Contact() {
       .then(() => {
         navigate(
           form.getAttribute('action') +
-            `?date=${form.elements[5].value}&time=${form.elements[6].value}`
+            `?date=${form.elements[6].value}&time=${form.elements[7].value}`
         );
       })
       .catch(error => alert(error));
@@ -99,6 +99,20 @@ export default function Contact() {
                 name="usertel"
                 onChange={handleChange}
               />
+            </label>
+          </p>
+          <p>
+            <label>
+              Project type<span style={{ color: 'red' }}>*</span>:
+              <br />
+              <select required name="typeof" onBlur={handleChange}>
+                <option selected value="">
+                  Select One
+                </option>
+                <option value="design">Design</option>
+                <option value="development">Development</option>
+                <option value="both">Both</option>
+              </select>
             </label>
           </p>
           <p>

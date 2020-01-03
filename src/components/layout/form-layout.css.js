@@ -11,6 +11,7 @@ export const Form = styled.div`
     width: 70%;
     margin: 4% 15%;
   }
+  select,
   textarea,
   input[type='tel'],
   input[type='email'],
