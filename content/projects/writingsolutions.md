@@ -4,7 +4,7 @@
 ---
 ## PROJECT BACKGROUND/PROBLEM
 This site was designed in lieu of translations services for my brother&apos;s company in Taiwan. 
-As compensation for the work, he is willing to proofread Shopify stores translated into Chinese for my customers.
+As compensation for the work, he is willing to proofread Shopify stores translated into Chinese.
 
 ## PROJECT OBJECTIVE
 To develop a website for an English translation business
