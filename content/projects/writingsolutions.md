@@ -4,13 +4,13 @@
 ---
 ## PROJECT BACKGROUND/PROBLEM
 This site was designed in lieu of translations services for my brother&apos;s company in Taiwan. 
-As compensation for the work, he was willing to proofread app-translated Shopify stores for American customers wishing to sell in the Chinese market and Chinese customers wishing to sell in America.
+As compensation for the work, he was willing to proofread Shopify stores translated into Chinese.
 
 ## PROJECT OBJECTIVE
 To develop a website for an English translation business
 
 ## NECESSITIES
-Make it easy for users to see both their original document and the translated document side-by-side on the site<br />
+Make it easy for users to see both their original documents and the translated documents side-by-side on the site<br />
 Create a homepage that is both contemporary but still has oldfashioned aesthetic appeal<br />
 Estimate time to completion.
 <br />
