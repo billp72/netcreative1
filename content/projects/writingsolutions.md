@@ -3,11 +3,10 @@
  featuredImage: ./../images/writingsolutionsfull.jpg
 ---
 ## PROJECT BACKGROUND/PROBLEM
-This site was designed in lieu of translations services for my brother&apos;s company in Taiwan. 
-As compensation for the work, he is willing to proofread Shopify stores translated into Chinese.
+To develop a website for an English translation business. I agreed to do the work in exchange for translation services of my international shopify customers.
 
 ## PROJECT OBJECTIVE
-To develop a website for an English translation business
+The website would allow customers to upload documents that needed translation either from Chinese to English or English to chinese and let them check the quality of the work before they paid.
 
 ## NECESSITIES
 Make it easy for users to see both their original documents and the translated documents side-by-side on the site<br />
