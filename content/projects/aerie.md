@@ -12,7 +12,7 @@ Redesign the entire site using Wordpress
 <ul class="li-style">
 <li>Choose a suitable Wordpress template to start building on</li>
 <li>Based on this template, create a site layout including customizations to the global header/footer, navigation, and internal page</li> 
-<li>content: images, text, widgets and deep links</li>
+<li>Check images, text, widgets and deep links to makes sure all are working</li>
 <li>Test websites for handicap accessibility (WAI-ARIA)</li>
 <li>Estimate time to completion.</li>
 </ul>
