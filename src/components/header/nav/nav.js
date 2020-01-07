@@ -13,7 +13,9 @@ const Nav = () => (
         <Link to="/about">About</Link>
       </li>
       <li>
-        <img width="27" src={image} alt="Google for Business" />
+        <a href="https://community.shopify.com/c/user/viewprofilepage/user-id/623407">
+          <img width="27" src={image} alt="Shopify partner profile" />
+        </a>
       </li>
     </ul>
   </Container>
