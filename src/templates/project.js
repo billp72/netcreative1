@@ -22,11 +22,19 @@ export const Container = styled.div`
     }
   }
   div.text {
-    width: 60%;
-    text-align: center;
+    width: 70%;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
     padding: 2rem;
+  }
+  .li-style {
+    padding-left: 15px;
+    li {
+      padding: 0 0 10px 0;
+      vertical-align: baseline;
+      border: 0;
+    }
   }
 `;
 
@@ -37,7 +45,9 @@ const Project = ({ data }) => {
     <Layout>
       <Container>
         <div className="text">
-          <p style={{ fontWeight: '800' }}>{post.frontmatter.title}</p>
+          <p style={{ fontSize: '4rem', textAlign: 'center' }}>
+            {post.frontmatter.title}
+          </p>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
         <Img
