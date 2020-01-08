@@ -8,7 +8,7 @@ The original website was not responsive
 ## OBJECTIVE
 Make the site suitable for mobile screens
 
-## NECESSITIES
+## STEPS
 <ul class="li-style">
 <li>Decide if there should be a complete redesign or if fixing the original site is perfered</li>
 <li>Inventory all images and other content to determine what could be reused<br/>

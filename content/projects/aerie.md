@@ -8,7 +8,7 @@ The original website used older technology and a design that felt antiquated
 ## OBJECTIVE
 Redesign the entire site using Wordpress
 
-## NECESSITIES
+## STEPS
 <ul class="li-style">
 <li>Choose a suitable Wordpress theme to start building on</li>
 <li>Based on this theme, create a site layout including customizations to the global header/footer, navigation, and internal pages as needed</li> 
