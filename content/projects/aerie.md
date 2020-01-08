@@ -11,10 +11,9 @@ Redesign the entire site using Wordpress
 ## STEPS
 <ul class="li-style">
 <li>Choose a suitable Wordpress theme to start building on</li>
-<li>Based on this theme, create a site layout including customizations to the global header/footer, navigation, and internal pages as needed</li> 
-<li>Check images, text, widgets and deep links to makes sure all are working</li>
-<li>Test websites for handicap accessibility (WAI-ARIA)</li>
-<li>Estimate time to completion.</li>
+<li>Create a site layout including customizations to the global header/footer, navigation, and internal pages as needed</li> 
+<li>Implement features, continuing to check that nothing else around the site had broken</li>
+<li>Make a final check of the site functionality while adding small design corrections before handoff</li>
 </ul>
 
 ## OUTCOME
