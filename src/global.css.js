@@ -24,10 +24,11 @@ export default createGlobalStyle`
   }
   /*ul, li, ol, ul {list-style: none;}*/
   h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+    /*margin: 0;*/
     padding: 0;
     border: 0;
-    font-size: 100%;
+    color: #5B5857;
+    /*font-size: 100%;*/
     vertical-align: baseline;
   }
   /* HTML5 display-role reset for older browsers */

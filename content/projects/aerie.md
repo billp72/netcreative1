@@ -2,13 +2,13 @@
  title: Aerie Pharmaceutical
  featuredImage: ./../images/aeriefull.jpg
 ---
-### BACKGROUND/PROBLEM
+## BACKGROUND / PROBLEM
 The original website used older technology and a design that felt antiquated
 
-### OBJECTIVE
+## OBJECTIVE
 Redesign the entire site using Wordpress
 
-### NECESSITIES
+## NECESSITIES
 <ul class="li-style">
 <li>Choose a suitable Wordpress template to start building on</li>
 <li>Based on this template, create a site layout including customizations to the global header/footer, navigation, and internal page</li> 
@@ -17,6 +17,6 @@ Redesign the entire site using Wordpress
 <li>Estimate time to completion.</li>
 </ul>
 
-### OUTCOME
+## OUTCOME
 Upon successful completion of the project, the site saw a 20% increase in traffic driven by the decision to go with an entirely new look and feel.
 [Aerie Pharmaceutical](https://aeriepharma.com/)
