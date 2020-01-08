@@ -10,7 +10,7 @@ Make the site suitable for mobile screens
 
 ## STEPS
 <ul class="li-style">
-<li>Design what the mobile screens should look like in Photoshop<br/>
+<li>Create designs of what the mobile screens should look like in Photoshop<br/>
 <li>Refactor CSS such that sizes are inherited from a base size using rem and em values</li>
 <li>Change, where necessary, margin to text-align, float, flex, or position to help content reflow for mobile</li>
 <li>Add and adjust media queries for content on mobile screens as needed</li>
