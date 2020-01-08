@@ -8,6 +8,9 @@ The original website used older technology and a design that felt antiquated
 ## OBJECTIVE
 Redesign the entire site using Wordpress
 
+## ROLE
+UI design and development
+
 ## STEPS
 <ul class="li-style">
 <li>Choose a suitable Wordpress theme to start building on</li>

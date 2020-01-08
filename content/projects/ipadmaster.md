@@ -8,6 +8,9 @@ The original website was not responsive
 ## OBJECTIVE
 Make the site suitable for mobile screens
 
+## ROLE
+UI development
+
 ## STEPS
 <ul class="li-style">
 <li>Create designs of what the mobile screens should look like in Photoshop<br/>

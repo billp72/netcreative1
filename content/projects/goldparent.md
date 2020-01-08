@@ -8,6 +8,9 @@ There was an urgent need to retouch and add new content to the website
 ## OBJECTIVE
 Add and create new visual elements and reorganize the homepage
 
+## ROLE
+UI design and development
+
 ## STEPS
 <ul class="li-style">
 <li>Create a basic visual hierarchy document, prioritizing new content</li>

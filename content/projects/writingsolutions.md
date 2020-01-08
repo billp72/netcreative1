@@ -8,6 +8,9 @@ Develop a website for an English translation business allowing customers to uplo
 ## OBJECTIVE
 Make it easy for users to see the first few pages of their original documents and the translated documents side-by-side on the site. Add a page for customer feedback.
 
+## ROLE
+UI design and development
+
 ## STEPS
 <ul class="li-style">
 <li>Create wireframes and a palette of colors, images and fonts</li>
