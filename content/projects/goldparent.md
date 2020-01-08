@@ -11,9 +11,9 @@ Add and create new visual elements and reorganize the homepage
 ## STEPS
 <ul class="li-style">
 <li>Create a basic visual hierarchy document, prioritizing new content</li>
-<li>Build wireframes showing where content will now live</li>
-<li>Make all appropriate metadata and tag changes to new and existing pages for accessibility and SEO</li>
+<li>Create and/or format images and icons in Photoshop</li>
 <li>Design and iterate</li>
+<li>Implement changes</li>
 </ul>
 
 ## OUTCOME
