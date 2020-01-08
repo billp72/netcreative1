@@ -2,10 +2,10 @@
  title: Aerie Pharmaceutical
  featuredImage: ./../images/aeriefull.jpg
 ---
-### PROJECT BACKGROUND
+### BACKGROUND/PROBLEM
 The original website used older technology and a design that felt antiquated
 
-### PROJECT OBJECTIVE
+### OBJECTIVE
 Redesign the entire site using Wordpress
 
 ### NECESSITIES

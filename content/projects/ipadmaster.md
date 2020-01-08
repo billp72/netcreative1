@@ -2,10 +2,10 @@
  title: Ipad Master
  featuredImage: ./../images/ipadmasterfull.jpg
 ---
-### PROJECT BACKGROUND
+### BACKGROUND/PROBLEM
 The original website was not responsive
 
-### PROJECT OBJECTIVE
+### OBJECTIVE
 Make the site suitable for mobile screens
 
 ### NECESSITIES

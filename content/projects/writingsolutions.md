@@ -2,10 +2,10 @@
  title: Writing Solutions
  featuredImage: ./../images/writingsolutionsfull.jpg
 ---
-### PROJECT BACKGROUND
+### BACKGROUND/PROBLEM
 To develop a website for an English translation business. In lieu of money, I agreed to work in exchange for translation services for international customers.
 
-### PROJECT OBJECTIVE
+### OBJECTIVE
 The website would allow customers to upload documents that needed translation either from Chinese to English or English to chinese and let them check the quality of the work before they paid.
 
 ### NECESSITIES

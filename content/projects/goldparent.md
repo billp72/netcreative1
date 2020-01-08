@@ -2,10 +2,10 @@
  title: Gold Parent Coaching
  featuredImage: ./../images/goldparentfull.jpg
 ---
-### PROJECT BACKGROUND
+### BACKGROUND/PROBLEM
 There was an urgent need to retouch and add new content to the website
 
-### PROJECT OBJECTIVE
+### OBJECTIVE
 Create and add visual elements to the website in a timely manner
 
 ### NECESSITIES
