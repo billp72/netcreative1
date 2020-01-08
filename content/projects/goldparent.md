@@ -6,13 +6,14 @@
 There was an urgent need to retouch and add new content to the website
 
 ## OBJECTIVE
-Create and add visual elements to the website in a timely manner
+Add and create new visual elements and reorganize the homepage
 
 ## NECESSITIES
 <ul class="li-style">
-<li>Inventory all images and other content to determine what should be redesigned or reused</li>
+<li>Create a basic visual hierarchy document, prioritizing new content</li>
+<li>Build wireframes showing where content will now live</li>
 <li>Make all appropriate metadata and tag changes to new and existing pages for accessibility and SEO</li>
-<li>Estimate time to completion.</li>
+<li>Design and iterate</li>
 </ul>
 
 ## OUTCOME

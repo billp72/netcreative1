@@ -3,16 +3,16 @@
  featuredImage: ./../images/writingsolutionsfull.jpg
 ---
 ## BACKGROUND / PROBLEM
-To develop a website for an English translation business. In lieu of money, I agreed to work in exchange for translation services for international customers.
+Develop a website for an English translation business allowing customers to upload documents.
 
 ## OBJECTIVE
-The website would allow customers to upload documents that needed translation either from Chinese to English or English to chinese and let them check the quality of the work before they paid.
+Make it easy for users to see the first few pages of their original documents and the translated documents side-by-side on the site. Add a page for customer feedback.
 
 ## NECESSITIES
 <ul class="li-style">
-<li>Make it easy for users to see both their original documents and the translated documents side-by-side on the site</li>
-<li>Create a homepage that is both contemporary but still has oldfashioned aesthetic appeal</li>
-<li>Estimate time to completion.</li>
+<li>Create wireframes and a palette of colors, images and fonts</li>
+<li>Create hi-resolution mock up in Photoshop</li>
+<li>Build a prototype in HTML, making adjustments as required by the client</li>
 </ul>
 
 ## OUTCOME
