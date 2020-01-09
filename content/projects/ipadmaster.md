@@ -13,7 +13,7 @@ UI development
 
 ## STEPS
 <ul class="li-style">
-<li>Redesign the main menu to a hamberger style menu when on a mobile devices</li>
+<li>Redesign the main menu to a hamburger-style menu when on a mobile devices</li>
 <li>Change, where necessary, margin to text-align, float, flex, or position to help content reflow for mobile</li>
 <li>Add and adjust media queries for content on mobile screens as needed</li>
 <li>Make all appropriate metadata and tag changes to new and existing pages for accessibility and SEO</li>
