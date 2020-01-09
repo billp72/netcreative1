@@ -25,7 +25,7 @@ const Header = ({ title, data }) => (
   <AnimatedContainer>
     <Container>
       <Link to="/">
-        <img width="160" src={title} alt="the logo" />
+        <img width="150" src={title} alt="the logo" />
       </Link>
       <Image>
         <img

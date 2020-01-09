@@ -10,7 +10,7 @@ const Layout = ({ data, children }) => (
   <div>
     <GlobalStyle />
     <Head />
-    <Header title={data.site.siteMetadata.siteTitle} />
+    <Header title={data.site.siteMetadata.siteLogo} />
     {children}
     <IOExample />
   </div>
@@ -27,7 +27,7 @@ const LayoutWithQuery = props => (
       query LayoutQuery {
         site {
           siteMetadata {
-            siteTitle
+            siteLogo
           }
         }
       }

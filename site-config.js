@@ -8,7 +8,8 @@ if (process.env.ENVIRONMENT !== "production") {
 const { spaceId, accessToken } = process.env;
 
 module.exports = {
-  siteTitle: `./netcreativeLogoSite.png`,
+  siteTitle: `NetCreative`,
+  siteLogo: `./netcreativeLogoSite.png`,
   siteTitleShort: `NC`,
   siteDescription: `we build websites so you dont have to`,
   siteUrl: `https://www.netcreative.org`,
