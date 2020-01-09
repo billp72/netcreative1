@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Layout from 'components/layout';
 import Img from 'gatsby-image';
 import styled from 'styled-components';
-//import MEDIA from 'helpers/mediaTemplates';
+import MEDIA from 'helpers/mediaTemplates';
 
 export const Container = styled.div`
   .gatsby-image-wrapper {
@@ -38,6 +38,23 @@ export const Container = styled.div`
   }
 `;
 
+export const P1 = styled.p`
+  h1.align {
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+  ${MEDIA.PHONE`
+    h1.align {
+      font-size: 3rem;
+    } 
+  `};
+  ${MEDIA.TABLET`
+    h1 {
+      font-size:3rem;
+    }
+  `};
+`;
 const Project = ({ data }) => {
   const post = data.markdownRemark;
 
@@ -45,9 +62,9 @@ const Project = ({ data }) => {
     <Layout>
       <Container>
         <div className="text">
-          <h1 style={{ textAlign: 'center', fontSize: '5rem' }}>
-            {post.frontmatter.title}
-          </h1>
+          <P1>
+            <h1 className="align">{post.frontmatter.title}</h1>
+          </P1>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
         <Img
