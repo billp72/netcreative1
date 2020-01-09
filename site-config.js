@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 if (process.env.ENVIRONMENT !== "production") {
   dotenv.config();
 }
-
+//path.resolve(__dirname, '')
 const { spaceId, accessToken } = process.env;
 
 module.exports = {
@@ -18,7 +18,7 @@ module.exports = {
   pathPrefix: null,
   spaceId,
   accessToken,
-  logo: path.resolve(__dirname, '/icon.png'),
+  logo: `./social.png`,
   social: {
     twitter: `gatsbyjs`,
     fbAppId: `1912006699051967`,
