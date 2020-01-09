@@ -45,9 +45,9 @@ const Project = ({ data }) => {
     <Layout>
       <Container>
         <div className="text">
-          <p style={{ fontSize: '4rem', textAlign: 'center' }}>
+          <h1 style={{ textAlign: 'center', fontSize: '5rem' }}>
             {post.frontmatter.title}
-          </p>
+          </h1>
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
         <Img
