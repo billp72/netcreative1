@@ -8,7 +8,7 @@ if (process.env.ENVIRONMENT !== "production") {
 const { spaceId, accessToken } = process.env;
 
 module.exports = {
-  siteTitle: `NetCreative`,
+  siteTitle: `./netcreativeLogoSite.png`,
   siteTitleShort: `NC`,
   siteDescription: `we build websites so you dont have to`,
   siteUrl: `https://www.netcreative.org`,
@@ -17,7 +17,7 @@ module.exports = {
   pathPrefix: null,
   spaceId,
   accessToken,
-  logo: path.resolve(__dirname, 'src/images/icon.png'),
+  logo: path.resolve(__dirname, '/icon.png'),
   social: {
     twitter: `gatsbyjs`,
     fbAppId: `1912006699051967`,
