@@ -9,7 +9,7 @@ Develop a website for an English translation business allowing customers to uplo
 Make it easy for users to see the first few pages of their original documents and the translated documents side-by-side on the site. Add a page for customer feedback.
 
 ## ROLE
-UI design and prototype
+UI design
 
 ## STEPS
 <ul class="li-style">
