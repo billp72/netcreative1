@@ -47,11 +47,13 @@ export const P1 = styled.p`
   ${MEDIA.PHONE`
     h1.align {
       font-size: 3rem;
+      margin-bottom: 5rem;
     } 
   `};
   ${MEDIA.TABLET`
-    h1 {
+    h1.align {
       font-size:3rem;
+      margin-bottom: 5rem;
     }
   `};
 `;
