@@ -15,8 +15,8 @@ UI design and development
 <ul class="li-style">
 <li>Choose a suitable Wordpress theme to start building on</li>
 <li>Create a site layout including customizations to the global header/footer, navigation, and internal pages as needed</li> 
-<li>Implement features, continuing to check that nothing else around the site had broken</li>
-<li>Make a final check of the site functionality while adding small design corrections before handoff</li>
+<li>Implement features, continuing to check that nothing else on the site had broke</li>
+<li>Make a final check of the sites functionality while adding small changes before handoff</li>
 </ul>
 
 ## OUTCOME
