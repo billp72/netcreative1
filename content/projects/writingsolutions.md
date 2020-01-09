@@ -19,4 +19,4 @@ UI design and prototype
 </ul>
 
 ## OUTCOME
-Upon successful completion of the design and prototype, it has been approved for development
+After completing the design and prototype, it has been approved for development
