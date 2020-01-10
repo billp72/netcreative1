@@ -3,7 +3,7 @@
  featuredImage: ./../images/brand.png
 ---
 ## What constitutes a brand?
-A brand is a memorable, comprehensive visual identity that may also include music, sound, and smell depending on the brand. Brand recognition is when people buy products on the basis of the brand alone. Trust in a brand means people feel confident in the consistency and quality of their product. While there's more than one way to develop a brand, gaining trust is vital for keeping your brand strong once you have it.
+A brand is a memorable, comprehensive visual identity that may also include music, sound, and smell depending on the brand. Brand recognition is when people buy products on the basis of the brand alone. Trust in a brand means people feel confident in the consistency and quality of their products. While there's more than one way for gaining trust in your brand, trust is vital for keeping it strong.
 
 Before all their goofy commercials came out, I had never heard of Dollar Shave Club. They were able to develop a brand seemingly overnight, because, I assume, of massive investment in their idea for a low-cost razor subscription plan. People associate ubiquity with trustworthiness because, and in the backs of our minds, we believe thousands, and in some cases, millions, of people couldn't be wrong about a product or company. 
 
