@@ -1,5 +1,5 @@
 ---
- title: Building a Brand
+ title: Grow trust and build your Brand
  featuredImage: ./../images/brand.png
 ---
 ## What constitutes a brand?
