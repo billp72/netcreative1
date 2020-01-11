@@ -3,7 +3,7 @@
  featuredImage: ./../images/brand.png
 ---
 ## What constitutes a brand?
-A brand is a complete visual identity that may also include sound, and even smell depending on the brand. Brand loyalty means people feel confident enough in the brand name to buy its products without worrying about their quality. While there's more than one way to build a brand loyalty, consumer trust is vital.
+A brand is a complete visual identity that may also include sound, and even smell depending on the brand. Brand loyalty means people feel confident enough in the brand name to buy its products without worrying about their quality. While there's more than one way to build brand loyalty, consumer trust is vital.
 
 Dollar Shave Club was attempting to solve the age-old problem of the high cost of razor blades by starting a subscription service enabling people to get them at a discount. There was nothing proprietary about what they were doing so had to flood the market with advertising thereby gaining instant credibility. I'm unsure of what their sales were when they finally sold the brand, but Unilever paid 1 billion dollars for it. 
 
