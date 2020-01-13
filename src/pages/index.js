@@ -7,7 +7,8 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
-import Modal from 'containers/modal';
+import Blog from 'components/blog';
+//import Modal from 'containers/modal';
 import { graphql } from 'gatsby';
 import { Button } from 'components/modal/modal.css';
 
@@ -50,19 +51,15 @@ const Index = ({ data }) => (
       </Title>
     </Box>
     <Gallery items={data.homeJson.gallery} />
-    <h1
+    <div
       style={{
-        height: '30vh',
-        paddingTop: '50px',
-        fontSize: 'x-large',
         textAlign: 'center',
       }}
     >
-      Ten years as a designer and developer coupled with a passion for the
-      <br />
-      business means you and your customers will have an excellent experience.
-    </h1>
-    <Modal>
+      <h1 style={{ color: '#757575' }}>{data.homeJson.blog}</h1>
+      <Blog items={data.homeJson.entries} />
+    </div>
+    {/*<Modal>
       <video
         src="https://i.imgur.com/gzFqNSW.mp4"
         playsInline
@@ -70,7 +67,7 @@ const Index = ({ data }) => (
         autoPlay
         muted
       />
-    </Modal>
+    </Modal>*/}
   </Layout>
 );
 
@@ -105,6 +102,15 @@ export const query = graphql`
         }
         linkA
         linkB
+      }
+      blog
+      entries {
+        linkB
+        image {
+          publicURL
+        }
+        date
+        title
       }
     }
   }

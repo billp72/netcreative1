@@ -12,7 +12,7 @@
   },
   {
     "title": "Content",
-    "copy": "Defacto industry standard CMS.",
+    "copy": "Defacto web standard CMS.",
     "image": "../images/gallery/wordpress.png",
     "linkA": "https://wpengine.com/platform/",
     "linkB": ""
@@ -51,5 +51,13 @@
     "image": "../images/gallery/writingsolutions.jpg",
     "linkA": "",
     "linkB": "/writingsolutions"
+  }],
+  "blog": "Feed",
+  "entries": [
+  {
+      "title": "Gatsby",
+      "date": "January 12 2020",
+      "image": "../images/blogthumbs/gatsby.png",
+      "linkB": "/gatsby"
   }]
 }
