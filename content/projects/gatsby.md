@@ -13,7 +13,7 @@ Put simply, Gatsby is a modern, Javascript alternative to site tools like Wordpr
 ### WHY SHOULD PEOPLE KNOW ABOUT GATSBY?
 Wordpress has dominated the CMS market for a long time. But with advancements in Javascript, I feel Wordpress is due for some competition. I also feel Gatsby is a superior platform in many ways. [Gatsby Starters](https://www.gatsbyjs.org/starters/?v=2)
 
-### WHY SHOULD I COMPLICATE THINGS BY USING A SEPERATE CMS?
+### WHY SHOULD I USE A SEPERATE CMS?
 When you rely on one platform for both page creation and content management, ala Wordpress, you're locking yourself into that platform. Switching now becomes an arduous process of migrating your data to a new platform if you ever decide to change. Keeping your content in the cloud means you never have to worry about it. [Contentful](https://contentful.com)
 
 ### WHAT ABOUT PERFORMANCE?
