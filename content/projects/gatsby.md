@@ -17,7 +17,7 @@ Wordpress has dominated the CMS market for a long time. But with advancements in
 When you rely on one platform for both page creation and content management, ala Wordpress, you're locking yourself into that platform. Switching now becomes an arduous process of migrating your data to a new platform if you ever decide to change. Keeping your content in the cloud means you never have to worry about it. [Contentful](https://contentful.com)
 
 ### WHAT ABOUT PERFORMANCE?
-According to benchmark testing, Gatsby outperforms Wordpress and other platforms when page load times were compared. I will say, both PHP and JS are making strides towards better performance.
+According to benchmark testing, Gatsby outperforms Wordpress and other platforms when page load times were compared. I will say, Wordpress is making strides towards better performance.
 
 ### WHAT ABOUT SEO?
 Without getting too technical, Gatsby renders static HTML pages directly to the browser which are then easily indexed by web crawlers. All things being equal, there's no reason a Gatsby site shouldn't rank similar to a Wordpress site on Google. I might even give a slight edge to Gatsby simply for its speed.
